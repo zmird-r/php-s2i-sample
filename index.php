@@ -7,8 +7,8 @@
 <body>
     <?php
         echo nl2br("Current time：".date('h:i:s') ."\n");
-        sleep(70);
-        echo "Time at 70 seconds later:".date('h:i:s');
+        sleep(180);
+        echo "Time at 190 seconds later:".date('h:i:s');
     ?>
 </body>
 </html>
